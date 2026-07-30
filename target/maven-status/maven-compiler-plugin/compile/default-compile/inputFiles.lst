@@ -1,1 +1,4 @@
 /Users/akshaykumar/Spring-boot-cohort-3/springboot-beginner-cohort-3/src/main/java/com/being_infinity/springboot_beginner_cohort_3/SpringbootBeginnerCohort3Application.java
+/Users/akshaykumar/Spring-boot-cohort-3/springboot-beginner-cohort-3/src/main/java/com/being_infinity/springboot_beginner_cohort_3/controllers/UserController.java
+/Users/akshaykumar/Spring-boot-cohort-3/springboot-beginner-cohort-3/src/main/java/com/being_infinity/springboot_beginner_cohort_3/models/User.java
+/Users/akshaykumar/Spring-boot-cohort-3/springboot-beginner-cohort-3/src/main/java/com/being_infinity/springboot_beginner_cohort_3/services/UserService.java
