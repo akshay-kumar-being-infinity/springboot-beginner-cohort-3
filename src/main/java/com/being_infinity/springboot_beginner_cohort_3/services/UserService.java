@@ -2,6 +2,7 @@ package com.being_infinity.springboot_beginner_cohort_3.services;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 import org.springframework.stereotype.Service;
 
@@ -62,10 +63,14 @@ public class UserService {
         return false;
     }
 
+    public User myRandomUser(){
+        if(allUsers.size() == 0){
+            return null;
+        }
 
+        Random rand = new Random();
+        int randomId = rand.nextInt(allUsers.size());
+        return allUsers.get(randomId);
+    }
 
-
-
-
-    
 }

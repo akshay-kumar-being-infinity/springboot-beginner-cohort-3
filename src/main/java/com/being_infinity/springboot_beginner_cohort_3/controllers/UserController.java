@@ -29,6 +29,15 @@ public class UserController {
         return userService.getAllUsers();
     }
 
+    @GetMapping("/random")
+    public ResponseEntity<User> myRandomUser(){
+        User temp = userService.myRandomUser();
+        if(temp != null){
+            return ResponseEntity.ok(temp);
+        }
+        return ResponseEntity.notFound().build();
+    }
+
     @GetMapping("/{id}")
     public ResponseEntity<User> getUserById(@PathVariable int id){
         User temp = userService.getUserById(id);
